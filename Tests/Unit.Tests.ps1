@@ -1764,7 +1764,8 @@ InModuleScope $ThisModuleName {
 		
 		}
 	}
-	describe 'SetAduser' {
+	
+    describe 'SetAduser' {
 	
 		$commandName = 'SetAduser'
 		
@@ -1849,6 +1850,7 @@ InModuleScope $ThisModuleName {
 		}
 	
 	}
+
 	describe 'SyncCompanyUser' {
 	
 		$commandName = 'SyncCompanyUser'
@@ -1962,7 +1964,8 @@ InModuleScope $ThisModuleName {
 				}
 			}
 		}
-	}	
+	}
+
 	describe 'WriteLog' {
 	
 		$commandName = 'WriteLog'
@@ -2046,6 +2049,7 @@ InModuleScope $ThisModuleName {
 			Assert-MockCalled @assMParams
 		}
 	}
+
 	describe 'Invoke-AdSync' {
 	
 		$commandName = 'Invoke-AdSync'
