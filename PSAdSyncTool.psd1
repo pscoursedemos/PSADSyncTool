@@ -1,6 +1,6 @@
 @{
 	RootModule        = 'PSADSyncTool.psm1'
-	ModuleVersion     = '1.0'
+	ModuleVersion     = '*'
 	GUID              = 'f22695b0-7535-428f-b6bd-73a87500ca78'
 	Author            = 'Adam Bertram'
 	CompanyName       = 'Contoso'
