@@ -1,6 +1,4 @@
-﻿Add-Type -AssemblyName 'System.DirectoryServices.AccountManagement
-
-Write-Host 'A changed has been made!'
+﻿Add-Type -AssemblyName 'System.DirectoryServices.AccountManagement'
 
 function GetPSADSyncToolConfiguration {
 	[OutputType('hashtable')]
